@@ -8,6 +8,7 @@ import { FaMailBulk } from "react-icons/fa";
 import { BsSubstack } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,6 +43,8 @@ export default function RootLayout({
       <body className="flex justify-center h-screen bg-[#B4B4B4]">
         <div>
           <header className="md:w-210 bg-black">
+            {/* vercel anlytics */}
+            <Analytics />
             <Link href={"https://sintomademorte.com/"}>
               <Image
                 className="py-4 px-4"
@@ -62,9 +65,7 @@ export default function RootLayout({
             </Link>
 
             <Link target="_blank" href="https://substack.com/@sintomademorte">
-              <BsSubstack
-                className="cursor-pointer  text-white size-10 hover:text-[#b4b4b4]"
-              />
+              <BsSubstack className="cursor-pointer  text-white size-10 hover:text-[#b4b4b4]" />
             </Link>
 
             <Link target="_blank" href="http://instagram.com/sintomademorte">
