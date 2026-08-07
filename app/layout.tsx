@@ -57,8 +57,8 @@ export default function RootLayout({
             </Link>
 
             <Navbar />
-          </header>
-          <main className="md:w-210">{children}</main>
+          </header> 
+          <main className="md:w-210 min-h-[calc(100vh-21rem)]  bg-black">{children}</main>
           <footer className="md:w-210 flex h-30 items-center gap-[20%] justify-center bg-[#353535] ">
             <Link href="/contato">
               <FaMailBulk className="cursor-pointer  text-white size-12  hover:text-[#b4b4b4]" />
