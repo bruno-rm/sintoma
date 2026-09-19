@@ -8,7 +8,7 @@ export default function Page() {
         <iframe
           className="pt-6"
           style={{ width: "100%", height: "120" }}
-          src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Faxaxaxas%2Fdark-waveebm-mixtape%2F"
+          src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Faxaxaxas%2Fdark-wave-71%2F&utm_medium=share&utm_source=embed&utm_content=show&utm_term=VXNlcjoyMzI5Mzg2NA%3D%3D"
           allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;"
         ></iframe>
 
